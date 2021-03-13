@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon --exec npx babel-node src/server.js",
+    "start": "npx nodemon --exec npx babel-node src/server.js"
   },
   "keywords": [],
   "author": "",
