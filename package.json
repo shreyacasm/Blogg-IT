@@ -5,9 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
- },
- 
+    "start": "npx nodemon --exec npx babel-node src/server.js",
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
