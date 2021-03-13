@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { MongoClient } from 'mongodb';
 import path from 'path';
-
+require("dotenv").config();
 
 const app = express();
 //passes the body object from our request
@@ -81,4 +81,4 @@ app.get('*', (req,res) => {
     res.sendFile(path.join(__dirname + '/build/index.html'));
 });
 
-app.listen(8000, () => console.log('Listening on port 8000'));
+app.listen(process.env.PORT || 8000, () => console.log('Listening on port 8000'));
