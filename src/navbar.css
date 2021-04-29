@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+  li a{
+    padding: 14px 12px !important;
+    font-size: 15px !important;
+  }
+
+}
+.navbar{
+  z-index: 9999 !important;
+  overflow: hidden !important;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden !important;
+    z-index: 9999 !important;
+    position: fixed;
+    background-color: darkslategray;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 28px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  li a:hover{
+    background-color: #111;
+  }
+.main-icon{
+    float: left!important;
+}
+.main-icon a{
+    font-weight: 900;
+    font-size: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.main-icon a:hover{
+    background-color:darkslategray;   
+}

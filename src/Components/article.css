@@ -1,0 +1,139 @@
+.article-div{
+    background-color: rgb(242, 251, 253);
+    margin: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    padding: 45px;
+    border-radius: 2%;
+    border-color: rgb(7, 104, 104);
+    border-spacing: 10px;
+    border-style: ridge;
+    box-shadow: 5px 10px rgb(70, 136, 136);
+}
+
+.article-h1{
+    text-transform: uppercase;
+    color: rgb(7, 104, 104);
+    text-align: left;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article-p{
+    font-size: 20px;
+    color: teal;
+    font-family: sans-serif;
+    text-align: left;
+}
+.vote{
+    
+    height: 60px;
+    padding: 2px;
+    border-radius: 10%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-style: none;
+    border-color:"none";
+    margin: 10px;
+    background-color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:blue;
+    font-weight: 800;
+}
+.vote-like{
+    font-size: 40px !important;
+    color: rgb(10, 44, 44) !important;
+}
+.vote-div{
+    display: inline;
+    font-size: 18px;
+    min-height: 200px;
+    
+}
+.vote-desc{
+    display: inline;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 12px;
+}
+.vote-hr{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px black;
+}
+
+.vote:active {
+    background-color: rgb(45, 206, 206);
+    box-shadow: 0 5px rgb(175, 211, 205);
+    transform: translateX(4px);
+}
+.vote:hover {
+    background-color: rgb(122, 202, 202);
+    color: white;
+    
+}
+.comment-div{
+    padding: 20px;
+}
+.comment-hr{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px gray;
+    margin: 0%;
+}
+.add-comm{
+    padding: 20px;
+}
+.name-comm{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+.button-add{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.button-add{
+    border-radius: 4px;
+    background-color: #972727;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .button-add span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-add span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-add:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-add:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
