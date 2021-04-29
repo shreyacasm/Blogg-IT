@@ -5,7 +5,6 @@ import {ReadOutlined } from '@ant-design/icons';
 import ArticleImg from './article.jpg';
 const ArticleListPage = () => (
     <>
-    {/* <img  src={ArticleImg} className="img-home"/> */}
     <div className="article-page">
         <h1 className="home-head" style={{textAlign:"center", fontSize:"50px", paddingTop:"0px"}}>Articles</h1>
         <ReadOutlined className="read-icon ic2" />
