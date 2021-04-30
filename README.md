@@ -1,8 +1,10 @@
 # To run the project:
-*clone the repo
-*npm start
 
-(the server-backend part is contained inside build section)
+=> clone the repo
+
+=> npm start
+
+(the server-backend part is contained inside build section and node modules)
 
 
 
