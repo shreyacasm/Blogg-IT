@@ -1,3 +1,18 @@
+# To run the project:
+*clone the repo
+*npm start
+
+(the server-backend part is contained inside build section)
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
